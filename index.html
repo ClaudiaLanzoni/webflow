@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link importazione Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Webflow</title>
+</head>
+<body>
+    <header>
+        <!--nav visibile solo fino a md-->
+        <nav class="navbar navbar-expand-md navbar-dark d-md-block d-lg-none my_bg_black" aria-label="Fourth navbar example">
+            <div class="container-fluid">
+              <img class="nav_logo my_invert" src="img/webflow-logo.png" alt="logo webflow">
+              
+              <div class="text-white my_padding_right_30 ms-auto"><ins><strong>Get started</strong> - it's free</ins></div>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+        </nav>
+        
+        <!--nav visibile da lg-->
+        <nav class="d-none d-lg-block d-md-none">
+            <div class="container">
+                <div class="nav_wrap d-flex justify-content-between align-items-center">
+                    <img class="nav_logo" src="img/webflow-logo.png" alt="logo webflow">
+                    <div>
+                        <button id="log_in_button" type="button" class="btn my_dodger p-3 my_br me-3">Log in</button>
+                        <button type="button" class="btn my_button_bg my_dodger p-3 my_br"><ins><strong>Get started</strong> - it's free</ins></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="jumbotron_section">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-12 col-md-6 my_mb_50">
+                        <h1 class="my_h1 mb-4 pt-5">The modern way to build from the web</h1>
+                        <p class="my_p mb-4">Webflow empowers designers to build professional, custom websites in a completely visual canvas with no code.</p>
+                        <button type="button" class="btn btn-primary p-3 my_br"><strong>Get started</strong> - it's free</button>
+                    </div>
+                    <div class="col-12 col-md-6 my_mb_50">
+                        <div class="jumbo_img_wrap">
+                            <img src="img/petal.png" alt="petal image">
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-1 my_mb_20">
+                        <img class="logo_size" src="img/zendesk-logo.png" alt="zendesk logo">
+                    </div>
+                    <div class="col-3 col-md-1 my_mb_20">
+                        <img class="logo_size" src="img/rakuten-logo.png" alt="rakuten logo">
+                    </div>
+                    <div class="col-3 col-md-1 my_mb_20">
+                        <img class="logo_size" src="img/dell-logo.png" alt="dell logo">
+                    </div>
+                    <div class="col-3 col-md-1 my_mb_20">
+                        <img class="logo_size" src="img/upwork-logo.png" alt="upwork logo">
+                    </div>
+                    <div class="col-3 col-md-1">
+                        <img class="logo_size" src="img/lattice-logo.png" alt="lattice logo">
+                    </div>
+                    <div class="col-3 col-md-1">
+                        <img class="logo_size" src="img/getaround-logo.png" alt="getaround-logo">
+                    </div>
+                    <div class="col-3 col-md-1">
+                        <img class="logo_size my_invert" src="img/hellosign-logo.png" alt="hellosign-logo">
+                    </div>
+                    <div class="col-3 col-md-1">
+                        <img class="logo_size" src="img/petal_logo_new.png" alt="petal-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="build_section section_width">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1 class="my_h1_big">Build</h1>
+                                    <p class="fw-bold pe-5 my_mb_200">Build production-ready experiences without coding.</p>
+                                    <div class="build_section_quote_wrap">
+                                        <img src="img/zendesk-logo.png" alt="zendesk-logo">
+                                        <p class="mb-4 px-4">“Webflow helped our brand team create a platform that enables all Zendesk employees to accurately and consistently represent the company in an easy, efficient and scalable way.”</p>
+                                        <div id="pinkley" class="quote_img_wrap mx-4 mb-4"></div>
+                                        <div class="quote_name_wrap align-text-bottom mb-4">
+                                            <h6 class="mb-1">Erin Pinkley</h6>
+                                            <h6>Executive Creative Director</h6>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="build_section_img_wrap pt-4 mb-4">
+                                        <img src="img/brandland-zendesk.jpg" alt="brandland-zendesk image">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <h6 class="mb-3">The Designer</h6>
+                                    <p>Bring your design vision to life in clean, semantic HTML5, CSS, and JavaScript — with the <a class="my_black" href=""> Webflow Designer</a>.</p>
+                                </div>
+                                <div class="col-4">
+                                    <h6 class="mb-3">CMS and Ecommerce</h6>
+                                    <p>Build completely <a class="my_black" href="">custom databases</a> for dynamic content types, including <a class="my_black" href="">online stores.</a></p>
+                                </div>
+                                <div class="col-4">
+                                    <h6 class="mb-3">Interactions</h6>
+                                    <p>Easily create immersive <a class="my_black" href="">interactions and animations</a>.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="build_section_lower_part section_width d-flex align-items-center justify-content-center my_mb_100">
+                <p><span class="fw-bold">Get started now</span> — it's free</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
