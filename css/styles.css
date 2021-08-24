@@ -31,6 +31,9 @@
     padding: 50px 0 50px 0;
 }
 
+.jumbo_img_wrap {
+    height: 100%;
+}
 
 .jumbo_img_wrap img,
 .section_img_wrap img {
@@ -89,6 +92,14 @@
     background-color: rgb(235,239,253,1);
 }
 
+.free_section {
+    background-color: black;
+}
+
+.free_section_content_wrap {
+    padding-right: 100px;
+}
+
 /*INIZIO CLASSI GENERICHE*/
 
 .my_invert {
@@ -101,6 +112,10 @@
 
 .my_dodger {
     color: dodgerblue;
+}
+
+.my_grey_bg {
+    color: grey;
 }
 
 .my_br {
