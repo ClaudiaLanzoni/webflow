@@ -33,24 +33,24 @@
 
 
 .jumbo_img_wrap img,
-.build_section_img_wrap img {
+.section_img_wrap img {
     width: 100%;
 }
 
 .section_width {
     margin: 0 40px 0 40px;
-    padding: 40px 0 40px 0;
+    padding: 20px 0 15px 0;
 }
 
-.build_section {
-    background-color: rgb(254,240,231);
+.section_logo {
+    height: 50px;
 }
 
-.build_section_quote_wrap {
+.section_quote_wrap {
     background-color: white;
 }
 
-.build_section_quote_wrap img {
+.section_quote_wrap img {
     height: 80px;
 }
 
@@ -67,13 +67,26 @@
     display: inline-block;
 }
 
-.build_section_lower_part {
-    padding: 20px 0 15px 0;
-    background-color: rgb(239,212,189,0.8);
+.my_impact_font {
+    color: grey;
+    text-transform: uppercase;
 }
 
-.build_section_lower_part:hover {
-    background-color: rgba(239,212,189,1);
+.resources_p_wrap {
+    width: 50%;
+}
+
+.resources_icon_size {
+    font-size: 30px;
+}
+
+.resources_square_wrap {
+    padding: 40px;
+    background-color: rgb(235,239,253,0.6);
+}
+
+.resources_square_wrap:hover {
+    background-color: rgb(235,239,253,1);
 }
 
 /*INIZIO CLASSI GENERICHE*/
@@ -129,4 +142,48 @@
 
 #pinkley {
     background-image: url(../img/pinkley.jpg);
+}
+
+#build_section {
+    background-color: rgb(254,240,231);
+}
+
+#build_section_lower_part {
+    background-color: rgb(239,212,189,0.8);
+}
+
+#launch_section {
+    background-color: rgba(249,225,234);
+}
+
+#launch_section_lower_part {
+    background-color: rgba(221,199,223,0.8);
+}
+
+#build_section_lower_part:hover {
+    background-color: rgba(239,212,189,1);
+}
+
+#launch_section_lower_part:hover {
+    background-color: rgba(221,199,223,1);
+}
+
+#green {
+    background-image: url(../img/green_jason.jpg);
+}
+
+#grow_section {
+    background-color: rgba(213,235,227);
+}
+
+#grow_section_lower_part {
+    background-color: rgba(190,220,208,0.8);
+}
+
+#grow_section_lower_part:hover {
+    background-color: rgba(190,220,208,1);
+}
+
+#erondu {
+    background-image: url(../img/erondu.jpg);
 }
